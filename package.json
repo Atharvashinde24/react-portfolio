@@ -1,0 +1,13 @@
+{
+  "name": "react-portfolio-root-wrapper",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd react-portfolio-main && npm install && npm run build",
+    "start": "cd react-portfolio-main && npm run dev",
+    "preview": "cd react-portfolio-main && npm run preview"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
